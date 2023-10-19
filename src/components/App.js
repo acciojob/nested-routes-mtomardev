@@ -12,6 +12,7 @@ import Jewellery from "./Jewellery";
 
 const App = () => {
   return (
+    <main>
     <div>
         {/* Do not remove the main div */}
         <Navbar/>
@@ -26,6 +27,7 @@ const App = () => {
         </Routes>
         
     </div>
+    </main>
   )
 }
 
