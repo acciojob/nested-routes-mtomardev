@@ -4,7 +4,9 @@ import Home from "./Navbar";
 
 const Women = () =>{
     return(
+        <main>
         <div>
+
             <h1>Women Items:</h1>
             <ul>
                 <li>
@@ -22,6 +24,7 @@ const Women = () =>{
             </ul>
             <Outlet/>
         </div>
+        </main>
     )
 }
 
