@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 const Home =() =>{
     return(
         <div>
+            <nav>
             <ul>
                 <li><NavLink to="/"> 
                     Home</NavLink></li>
@@ -11,6 +12,7 @@ const Home =() =>{
                     <li><NavLink to="/women"> 
                     Women</NavLink></li>
             </ul>
+            </nav>
             
         </div>
     )
